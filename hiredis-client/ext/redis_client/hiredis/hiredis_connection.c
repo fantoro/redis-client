@@ -30,12 +30,12 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 // SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+#include <stdbool.h>
 #include "ruby.h"
 #include "ruby/thread.h"
 #include "ruby/encoding.h"
 #include <errno.h>
 #include <sys/socket.h>
-#include <stdbool.h>
 #include "hiredis.h"
 #include "net.h"
 #include "hiredis_ssl.h"
